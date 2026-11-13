@@ -2,9 +2,7 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=1D9BF7&random=false&width=520&lines=Backend+first.+Java+and+Spring+Boot.;Design%2C+Build%2C+Ship%2C+Repeat;It+works+on+my+machine." alt="Typing SVG" /></a>
 
-<!-- Optional banner: upload your own GIF or image to this repository and uncomment the next line.
-<img align="center" alt="Coding" width="100%" src="./banner.gif">
--->
+<img align="center" alt="Gaming on one screen, coding on the other" width="100%" src="./banner.svg">
 
 <h1 align="center">Language and Tools:</h1>
 
