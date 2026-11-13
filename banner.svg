@@ -210,29 +210,41 @@
         <!-- the Spartan -->
         <g class="sp">
           <g class="px">
-            <rect x="222" y="167" width="7" height="22" fill="#c22b2b"/>
-            <rect x="219" y="174" width="4" height="18" fill="#c22b2b"/>
-            <rect x="230" y="184" width="5" height="7" fill="#d9a07a"/>
-            <rect x="238" y="184" width="5" height="7" fill="#d9a07a"/>
-            <rect x="230" y="190" width="5" height="6" fill="#c9973a"/>
-            <rect x="238" y="190" width="5" height="6" fill="#c9973a"/>
-            <rect x="229" y="166" width="14" height="14" fill="#c9973a"/>
-            <rect x="231" y="169" width="10" height="2" fill="#e6bd62"/>
-            <rect x="229" y="180" width="14" height="5" fill="#7a1f1f"/>
-            <rect x="231" y="156" width="10" height="10" fill="#d9a07a"/>
-            <rect x="230" y="152" width="12" height="7" fill="#c9973a"/>
-            <rect x="230" y="159" width="3" height="6" fill="#c9973a"/>
-            <rect x="239" y="159" width="3" height="5" fill="#c9973a"/>
-            <rect x="236" y="159" width="3" height="2" fill="#15131f"/>
-            <rect x="228" y="146" width="14" height="5" fill="#e03131"/>
-            <rect x="226" y="149" width="4" height="8" fill="#e03131"/>
+            <!-- legs, sandals, war skirt -->
+            <rect x="230" y="186" width="5" height="8" fill="#b9794f"/>
+            <rect x="238" y="186" width="5" height="8" fill="#b9794f"/>
+            <rect x="229" y="193" width="7" height="3" fill="#5a3a26"/>
+            <rect x="237" y="193" width="7" height="3" fill="#5a3a26"/>
+            <rect x="228" y="178" width="16" height="9" fill="#7a1f1f"/>
+            <rect x="228" y="178" width="16" height="3" fill="#c9973a"/>
+            <rect x="231" y="184" width="2" height="4" fill="#c9973a"/><rect x="235" y="184" width="2" height="5" fill="#c9973a"/><rect x="239" y="184" width="2" height="4" fill="#c9973a"/>
+            <!-- bare torso and arms -->
+            <rect x="229" y="164" width="14" height="14" fill="#b9794f"/>
+            <rect x="231" y="168" width="10" height="1" fill="#9a6240"/>
+            <rect x="235" y="169" width="1" height="8" fill="#9a6240"/>
+            <rect x="225" y="165" width="5" height="11" fill="#b9794f"/>
+            <rect x="224" y="174" width="5" height="4" fill="#5a3a26"/>
+            <!-- bald head and beard -->
+            <rect x="231" y="152" width="10" height="11" fill="#b9794f"/>
+            <rect x="232" y="151" width="8" height="2" fill="#c98a5e"/>
+            <rect x="237" y="156" width="3" height="2" fill="#15131f"/>
+            <rect x="236" y="154" width="5" height="1" fill="#3b2a20"/>
+            <rect x="234" y="160" width="8" height="5" fill="#2a1d18"/>
+            <rect x="236" y="165" width="5" height="2" fill="#2a1d18"/>
           </g>
+          <!-- back-hand sword, held low -->
+          <g class="px">
+            <rect x="218" y="176" width="3" height="3" fill="#c9973a"/>
+            <polygon points="221,175 208,170 206,172 220,179" fill="#cfd8e3"/>
+          </g>
+          <!-- front sword: the striking arm -->
           <g class="spear px">
-            <rect x="234" y="172" width="38" height="2" fill="#e8e0d0"/>
-            <polygon points="272,169 281,173 272,177" fill="#cfd8e3"/>
+            <rect x="241" y="167" width="10" height="5" fill="#b9794f"/>
+            <rect x="249" y="166" width="4" height="7" fill="#5a3a26"/>
+            <rect x="253" y="165" width="2" height="9" fill="#c9973a"/>
+            <polygon points="255,167 276,168 281,170 276,172 255,172" fill="#e6edf5"/>
+            <rect x="256" y="169" width="18" height="1" fill="#9aa7b5"/>
           </g>
-          <circle cx="247" cy="176" r="9" fill="#c9973a" stroke="#7a5a1c" stroke-width="2"/>
-          <polyline points="243,180 247,171 251,180" fill="none" stroke="#c22b2b" stroke-width="2"/>
         </g>
 
         <!-- Zeus -->
