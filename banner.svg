@@ -75,6 +75,9 @@
     .zhp { transform-box: fill-box; transform-origin: left center; animation: zhp 16s steps(5, jump-none) infinite; }
     @keyframes zhp { from { transform: scaleX(1); } to { transform: scaleX(0.08); } }
 
+    .flail { transform-origin: 0 0; animation: flail 1.6s ease-in-out infinite; }
+    @keyframes flail { 0%, 100% { transform: rotate(-28deg); } 50% { transform: rotate(34deg); } }
+
     .neon { animation: neon 5s linear infinite; }
     @keyframes neon { 0%, 46%, 50%, 100% { opacity: 1; } 48% { opacity: 0.35; } }
 
@@ -232,10 +235,22 @@
             <rect x="234" y="160" width="8" height="5" fill="#2a1d18"/>
             <rect x="236" y="165" width="5" height="2" fill="#2a1d18"/>
           </g>
-          <!-- back-hand sword, held low -->
-          <g class="px">
-            <rect x="218" y="176" width="3" height="3" fill="#c9973a"/>
-            <polygon points="221,175 208,170 206,172 220,179" fill="#cfd8e3"/>
+          <!-- back hand: an iron chain flail, swung overhead -->
+          <g transform="translate(226,176)">
+            <g class="flail px">
+              <rect x="-3" y="-5" width="3" height="3" fill="#8f98a6"/>
+              <rect x="-6" y="-9" width="3" height="3" fill="#6f7886"/>
+              <rect x="-8" y="-13" width="3" height="3" fill="#8f98a6"/>
+              <rect x="-10" y="-17" width="3" height="3" fill="#6f7886"/>
+              <rect x="-11" y="-21" width="3" height="3" fill="#8f98a6"/>
+              <rect x="-11" y="-25" width="3" height="3" fill="#6f7886"/>
+              <rect x="-10" y="-29" width="3" height="3" fill="#8f98a6"/>
+              <rect x="-12" y="-38" width="8" height="8" fill="#4b5462"/>
+              <rect x="-10" y="-36" width="3" height="3" fill="#8f98a6"/>
+              <rect x="-9" y="-41" width="2" height="3" fill="#cfd8e3"/>
+              <rect x="-15" y="-35" width="3" height="2" fill="#cfd8e3"/>
+              <rect x="-4" y="-35" width="3" height="2" fill="#cfd8e3"/>
+            </g>
           </g>
           <!-- front sword: the striking arm -->
           <g class="spear px">
